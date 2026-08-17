@@ -1,0 +1,94 @@
+body{
+	background-color: rgb(54, 69, 79);
+	font-family: Garamond;
+}
+h1{
+	font-family: Oswald;/*vedi se trovi font h1 più carino*/
+	font-weight: lighter;
+}
+button{
+	background-color: white;
+	outline:darkgrey;
+	font-family: Oswald;
+	font-weight: lighter;
+}
+.titolo{
+	background-image: url("../img/sfondo_montagna.png");
+	background-size: 100%;
+}
+.titolo img{
+	width: 100%;
+	height: auto;
+}
+
+.topnav{
+	background-color: white;
+}
+.topnav a{
+	font-family: Garamond;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.descrizione {
+	box-sizing: border-box;
+	background-color: white;
+}
+.descrizione img{
+	width: 200px;
+	height: auto;
+
+}
+main{
+	background-color: darkgrey;
+	float: left;
+	width: 70%;
+	/*height: 100%;*/
+}
+aside{
+	width: 30%;
+	height: 100%;
+	float: right;
+	/*text-align: center;*/
+}
+
+footer{
+	position: fixed;
+ 	left: 0;
+ 	 bottom: 0;
+	 width: 100%;
+	text-align: center;
+}
+
+#map{
+	height: 500px;
+}
+.row {
+  margin: 8px 8px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+/*.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+ /* display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}

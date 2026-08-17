@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Ritratti di Montagne</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style/stile.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<!--leaftleet mappa-->
+		<!-- CSS e Javascript di Leaflet -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+		
+	</head>
+	<body>
+		<header>
+			<div class="titolo">
+				<img src="img/titolo.png" alt="Ritratti di montagne">
+			</div>
+			<nav class="topnav"> 
+				<a href="index_ritratti.html" class="active" title="Home"> HOME</a> <a href="catalogo_index.html" class="active" title="catalogo">CATALOGO</a> <a href="#dati" class="active" title="Dati"> DATI</a>
+			</nav>
+		</header>
+		<aside>
+			<p>ricerca</p>
+			<a href="#link" title="esplora la storia del posto">storia del posto</a>
+
+		</aside>
+		<main>
+			<div>
+				<h1> Presentazione Progetto</h1>
+				<p> Ritratti Di Montagne vuole presentare una raccolta di rappresentazioni artistiche dell'appennino centrale-in particolare del versante abruzzese- nel secolo compreso tra il 1850 e il 1950, offrendo una panoramica attraverso vari format e autori. Una visione che alterna una visione romantica, che sottolinea l'idillio bucolico della natura incontaminata, ad una visione che non esita a sottolineare le difficoltà di un territorio tanto irragiungibile.</p>
+			</div>
+			<div id="map"></div>
+
+				<script src="https://unpkg.com/leaflet/dist/leaflet.js"  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    			 crossorigin=""></script>
+				<script>
+					var map = L.map( 'map' ).setView([42.064,13.173], 9);
+					L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					  attribution: '© OpenStreetMap contributors'
+					}).addTo(map);
+
+					var marker = L.marker([42.21428,13.91350]).addTo(map);
+					marker.bindPopup('<a href="#">Tocco da Casauria</a>')
+
+					var marker = L.marker([41.88608,13.47579]).addTo(map);
+					marker.bindPopup('<a href="#">Civita Antino</a>')
+
+					var marker = L.marker([41.9648,13.9438]).addTo(map);
+					marker.bindPopup('<a href="#">Pettorano sul Gizio</a>')
+
+					var marker = L.marker([41.90386,13.88021]).addTo(map);
+					marker.bindPopup('<a href="#">Scanno</a>')
+
+					var marker = L.marker([41.9113,13.9873]).addTo(map);
+					marker.bindPopup('<a href="#">Rocca Pia</a>')
+
+					var marker = L.marker([42.07077,14.32271]).addTo(map);
+					marker.bindPopup('<a href="#">Roccascalegna</a>')
+
+					var marker = L.marker([41.9959,13.5471]).addTo(map);
+					marker.bindPopup('<a href="#">Piana del Fucino</a>')
+
+					var marker = L.marker([42.0279,14.2743]).addTo(map);
+					marker.bindPopup('<a href="#">Torricella Peligna</a>')
+
+					var marker = L.marker([42.43608,13.30127]).addTo(map);
+					marker.bindPopup('<a href="#">Pizzoli</a>')
+
+					var marker = L.marker([42.02543,13.65790]).addTo(map);
+					marker.bindPopup('<a href="#">Pescina</a>')
+				</script>
+		</main>
+	<footer>
+		Progetto di DH @ Bianca Miani
+	</footer>
+	</body>
+	
+</html>

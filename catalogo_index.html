@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Ritratti di Montagne</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style/stile.css">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header>
+			<div class="titolo">
+				<img src="img/titolo.png" alt="Ritratti di montagne">
+			</div>
+			<nav class="topnav"> 
+				<a href="index_ritratti.html" class="active" title="Home"> HOME</a> <a href="catalogo_index.html" class="active" title="catalogo">CATALOGO</a> <a href="#dati" class="active" title="Dati"> DATI</a>
+			</nav>
+		</header>
+		<main>
+			<h1> Esplora il catalogo!</h1>
+			<p> Naviga sulla <a href="#">MAPPA</a>, cerca per <a href="#">TIPOLOGIA</a> e <a href="#">AUTORE</a></p>
+			<div class="galleria">
+				<div class="myBtnContainer">
+					<button class="btn active" onclick="filterSelection( 'all' )"> Tutti </button>
+					<button class="btn" onclick="filterSelection( 'dipinto')"> Dipinto </button>
+					<button class="btn" onclick="filterSelection('stampa')"> Stampa</button>
+					<button class="btn" onclick="filterSelection('fotografia')"> Fotografia</button>
+					<button class="btn" onclick="filterSelection( 'operaletteraria' )"> Opera Letteraria </button>
+					<button class="btn" onclick="filterSelection( 'Tiratelli')"> A.Tiratelli</button>
+					<button class="btn" onclick="filterSelection('Escher')"> M.C.Escher</button>
+					<button class="btn" onclick="filterSelection( 'Patini')">Teofilo Patini</button>
+					<button class="btn" onclick="filterSelection( 'Zahartmann')"> K.Zahartmann </button>
+					<button class="btn" onclick="filterSelection( 'Michetti')"> F.P.Michetti</button>
+					<button class="btn" onclick="filterSelection( 'Cascella' )"> B.Cascella</button>
+					<button class="btn" onclick="filterSelection( 'Silone')"> I.Silone </button>
+					<button class="btn" onclick="filterSelection( 'Cespedes')"> A. de Cespedes</button>
+					<button class="btn" onclick="filterSelection( 'Bresson')"> H. Cartier-Bresson</button>
+					<button class="btn" onclick="filterSelection( 'Ginzburg' )"> N.Ginzburg</button>
+					<button class="btn" onclick="filterSelection( 'Giacomelli')">M.Giacomelli</button>
+				</div>
+
+				<!--griglia-->
+				<div class="row">
+					<div class="column dipinto Tiratelli">
+						<div class="descrizione">
+							<img src="img/opere/veduta_lago.jpeg" alt="Veduta del Lago del Fucino di A. Tiratelli">
+							<h4> Veduta del Lago del Fucino</h4>
+							<p>Aurelio Tiratelli</p>
+							<p>1875</p>
+						</div>
+					</div>
+					<div class="column dipinto Patini">
+						<div class="descrizione">
+							<img src="img/opere/Bestie_da_soma.jpg" alt="Bestie da Soma di Teofilo Pantini">
+							<h4>Bestie da Soma</h4>
+							<p>Teofilo Patini</p>
+							<p>1886</p>
+						</div>
+					</div>
+					<div class="column dipinto Zahartmann">
+						<div class="descrizione">
+							<img src="img/opere/Civita_dAntino.jpeg" alt=" Opgang til Civita d'Antino di Kristian Zahrtmann">
+							<h4>Opgang til Civita d'Antino</h4>
+							<p>Kristian Zahrtmann</p>
+							<p>1889</p>
+						</div>
+					</div>
+					<div class="column dipinto Michetti">
+						<div class="descrizione">
+							<img src="img/opere/La_figlia_di_Iorio.jpg" alt="La figlia di Iorio di Francesco P. Michetti">
+							<h4>La figlia di Iorio</h4>
+							<p>Francesco Paolo Michetti</p>
+							<p> 1895</p>
+						</div>
+					</div>
+					<div class="column stampa Escher">
+						<div class="descrizione">
+							<img src="img/opere/belvedere.jpg" alt="Belvedere di M.C.Escher">
+							<h4>Belvedere</h4>
+							<p>M.C.Escher</p>
+							<p>1858</p>
+						</div>
+					</div>
+					<div class="column stampa Cascella">
+						<div class="descrizione">
+							<img src="img/opere/roccascalegna.jpg" alt="Roccascalegna di Basilio Cascella">
+							<h4>Roccascalegna</h4>
+							<p>Basilio Cascella</p>
+							<p>1902</p>
+						</div>
+					</div>
+					<div class="column fotografia Bresson">
+						<div class="descrizione">
+							<img src="img/opere/natale_Scanno.jpg" alt="Natale a Scanno di Cartier-Bresson">
+							<h4> Natale a Scanno</h4>
+							<p>Henri Cartier-Bresson</p>
+							<p>1951</p>
+						</div>
+					</div>
+					<div class="column fotografia Giacomelli">
+						<div class="descrizione">
+							<img src="img/opere/bambino_scanno.jpg" alt="Il bambino di Scanno di Mario Giacomelli">
+							<h4> Il bambino di Scanno</h4>
+							<p>Mario Giacomelli</p>
+							<p>1964</p>
+						</div>
+					</div>
+					<div class="column romanzo Cespedes">
+						<div class="descrizione">
+							<img src="img/opere/dalla_parte_di_lei.jpg" alt="Dalla Parte di Lei di Alba de Cespedes">
+							<h4>Dalla Parte di Lei</h4>
+							<p>Alba de Cespedes</p>
+							<p>1949</p>
+						</div>
+					</div>
+					<div class="column romanzo Ginzburg">
+						<div class="descrizione">
+							<img src="img/opere/piccole_virtù.jpg" alt="Piccole Virtù di Natalia Ginzburg">
+							<h4> Piccole Virtù</h4>
+							<p>Natalia Ginzburg</p>
+							<p>1962</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<footer>
+			Progetto di DH @ Bianca Miani
+		</footer>
+		<script>
+			filterSelection("all") // Execute the function and show all columns
+			function filterSelection(c) {
+  			var x, i;
+  			x = document.getElementsByClassName("column");
+  			if (c == "all") c = "";
+  			// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  			for (i = 0; i < x.length; i++) {
+  			  w3RemoveClass(x[i], "show");
+  			  if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  				}
+				}
+
+			// Show filtered elements
+			function w3AddClass(element, name) {
+ 			 var i, arr1, arr2;
+ 			 arr1 = element.className.split(" ");
+ 			 arr2 = name.split(" ");
+ 			 for (i = 0; i < arr2.length; i++) {
+  			  if (arr1.indexOf(arr2[i]) == -1) {
+  		    element.className += " " + arr2[i];
+ 		   }
+			  }
+			}
+
+			// Hide elements that are not selected
+			function w3RemoveClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+		    while (arr1.indexOf(arr2[i]) > -1) {
+		      arr1.splice(arr1.indexOf(arr2[i]), 1);
+		    }
+			  }
+		  element.className = arr1.join(" ");
+			}
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+		</script>
+	</body>
+</html>

@@ -35,6 +35,8 @@ button{
 div.descrizione {
 	box-sizing: border-box;
 	background-color: white;
+	width: auto; 
+	height: auto;
 }
 .descrizione img{
 	width: 200px;
@@ -46,6 +48,7 @@ main{
 	float: left;
 	width: 70%;
 	/*height: 100%;*/
+	text-align: center;
 }
 aside{
 	width: 30%;
@@ -79,7 +82,8 @@ footer{
 .column {
   float: left;
   width: 33.33%;
- /* display: none; /* Hide columns by default */
+ /display: none; 
+  Hide columns by default 
 }
 
 /* Clear floats after rows */
@@ -91,4 +95,22 @@ footer{
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
+}
+
+/*tabella metadati*/
+div.metadati{
+	text-align: center;
+}
+.metadati img{
+	width: 600px;
+	height: auto;
+}
+
+.metadati table{
+	background-color: white;
+	/*float: center;*/
+}
+
+th{
+	text-decoration-line: underline overline;
 }

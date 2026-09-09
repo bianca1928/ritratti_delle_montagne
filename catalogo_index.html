@@ -43,7 +43,7 @@
 				<div class="row">
 					<div class="column dipinto Tiratelli">
 						<div class="descrizione">
-							<img src="img/opere/veduta_lago.jpeg" alt="Veduta del Lago del Fucino di A. Tiratelli">
+							<a href="#" title="scopri di più"><img src="img/opere/veduta_lago.jpeg" alt="Veduta del Lago del Fucino di A. Tiratelli"></a>
 							<h4> Veduta del Lago del Fucino</h4>
 							<p>Aurelio Tiratelli</p>
 							<p>1875</p>
@@ -51,7 +51,7 @@
 					</div>
 					<div class="column dipinto Patini">
 						<div class="descrizione">
-							<img src="img/opere/Bestie_da_soma.jpg" alt="Bestie da Soma di Teofilo Pantini">
+							<a href="bestie_soma_pg.html"><img src="img/opere/Bestie_da_soma.jpg" alt="Bestie da Soma di Teofilo Pantini"></a>
 							<h4>Bestie da Soma</h4>
 							<p>Teofilo Patini</p>
 							<p>1886</p>
@@ -167,8 +167,8 @@
 			}
 
 		// Add active class to the current button (highlight it)
-		var btnContainer = document.getElementById("myBtnContainer");
-		var btns = btnContainer.getElementsByClassName("btn");
+		var btnContainer = document.querySelector(".myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
 		for (var i = 0; i < btns.length; i++) {
 		  btns[i].addEventListener("click", function(){
 	    var current = document.getElementsByClassName("active");

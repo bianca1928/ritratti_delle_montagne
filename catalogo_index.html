@@ -21,7 +21,7 @@
 			<p> Naviga sulla <a href="index_ritratti.html">MAPPA</a>, cerca per <a href="#collezione">TIPOLOGIA</a> e <a href="#collezione">AUTORE</a> e </a href="#collezione"> </p>
 			
 				<div class="filtri-container">
-					<div class="filtro/gruppo">
+					<div class="filtro-gruppo">
 						<label for="filtro-tipologia" class="filtro/select">Tipologia:</label>
 						<select id="filtro-tipologia" class="filtro/select">
 							<option value="dipinto">Dipinto</option>
@@ -66,8 +66,8 @@
     				</div>
 
 				<!--griglia-->
-				<div class="row">
-					<div class="column" data-tipologia="dipinto" data-autore="Tiratelli" data-data="1875">
+				<div class="row" id="galleria-opere">
+					<div class="column" data-tipologia="dipinto" data-autore="Tiratelli" data-date="1850-1900">
 						<div class="descrizione">
 							<a href="#" title="scopri di più"><img src="img/opere/veduta_lago.jpeg" alt="Veduta del Lago del Fucino di A. Tiratelli"></a>
 							<h4> Veduta del Lago del Fucino</h4>
@@ -75,7 +75,7 @@
 							<p>1875</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="dipinto" data-autore="Patini" data-date="1886">
+					<div class="column" data-tipologia="dipinto" data-autore="Patini" data-date="1850-1900">
 						<div class="descrizione">
 							<a href="bestie_soma_pg.html"><img src="img/opere/Bestie_da_soma.jpg" alt="Bestie da Soma di Teofilo Pantini"></a>
 							<h4>Bestie da Soma</h4>
@@ -83,7 +83,7 @@
 							<p>1886</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="dipinto" data-autore="Zahartmann" data-date="1889">
+					<div class="column" data-tipologia="dipinto" data-autore="Zahartmann" data-date="1850-1900">
 						<div class="descrizione">
 							<img src="img/opere/Civita_dAntino.jpeg" alt=" Opgang til Civita d'Antino di Kristian Zahrtmann">
 							<h4>Opgang til Civita d'Antino</h4>
@@ -91,7 +91,7 @@
 							<p>1889</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="dipinto" data-autore="Michetti" data-date="1895">
+					<div class="column" data-tipologia="dipinto" data-autore="Michetti" data-date="1850-1900">
 						<div class="descrizione">
 							<img src="img/opere/La_figlia_di_Iorio.jpg" alt="La figlia di Iorio di Francesco P. Michetti">
 							<h4>La figlia di Iorio</h4>
@@ -99,7 +99,7 @@
 							<p> 1895</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="stampa" data-autore="Escher" data-date="1858">
+					<div class="column" data-tipologia="stampa" data-autore="Escher" data-date="1850-1900">
 						<div class="descrizione">
 							<img src="img/opere/belvedere.jpg" alt="Belvedere di M.C.Escher">
 							<h4>Belvedere</h4>
@@ -107,7 +107,7 @@
 							<p>1858</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="stampa" data-autore="Cascella" data-date="1902">
+					<div class="column" data-tipologia="stampa" data-autore="Cascella" data-date="1900-1950">
 						<div class="descrizione">
 							<img src="img/opere/roccascalegna.jpg" alt="Roccascalegna di Basilio Cascella">
 							<h4>Roccascalegna</h4>
@@ -115,7 +115,7 @@
 							<p>1902</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="operaletteraria" data-autore="Silone" data-date="1930">
+					<div class="column" data-tipologia="operaletteraria" data-autore="Silone" data-date="1900-1950">
 						<div class="descrizione">
 							<img src="img/opere/Fontamara.jpg">
 							<h4>Fontamara</h4>
@@ -123,7 +123,7 @@
 							<p> 193?</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="fotografia" data-autore="Bresson" data-date="1951">
+					<div class="column" data-tipologia="fotografia" data-autore="Bresson" data-date="1950-2000">
 						<div class="descrizione">
 							<img src="img/opere/natale_Scanno.jpg" alt="Natale a Scanno di Cartier-Bresson">
 							<h4> Natale a Scanno</h4>
@@ -131,7 +131,7 @@
 							<p>1951</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="fotografia" data-autore="Giacomelli" data-date="1964">
+					<div class="column" data-tipologia="fotografia" data-autore="Giacomelli" data-date="1950-2000">
 						<div class="descrizione">
 							<img src="img/opere/bambino_scanno.jpg" alt="Il bambino di Scanno di Mario Giacomelli">
 							<h4> Il bambino di Scanno</h4>
@@ -139,7 +139,7 @@
 							<p>1964</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="operaletteraria data-autore="Cespedes" data-date="1949">
+					<div class="column" data-tipologia="operaletteraria" data-autore="Cespedes" data-date="1900-1950">
 						<div class="descrizione">
 							<img src="img/opere/dalla_parte_di_lei.jpg" alt="Dalla Parte di Lei di Alba de Cespedes">
 							<h4>Dalla Parte di Lei</h4>
@@ -147,7 +147,7 @@
 							<p>1949</p>
 						</div>
 					</div>
-					<div class="column" data-tipologia="operaletteraria" data-autore="Ginzburg" data-date="1962">
+					<div class="column" data-tipologia="operaletteraria" data-autore="Ginzburg" data-date="1950-2000">
 						<div class="descrizione">
 							<img src="img/opere/piccole_virtù.jpg" alt="Piccole Virtù di Natalia Ginzburg">
 							<h4> Piccole Virtù</h4>

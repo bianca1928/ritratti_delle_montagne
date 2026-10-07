@@ -6,12 +6,7 @@ h1{
 	font-family: Oswald;/*vedi se trovi font h1 più carino*/
 	font-weight: lighter;
 }
-button{
-	background-color: white;
-	outline:darkgrey;
-	font-family: Oswald;
-	font-weight: lighter;
-}
+
 .titolo{
 	background-image: url("../img/sfondo_montagna.png");
 	background-size: 100%;
@@ -30,6 +25,64 @@ button{
 	font-size: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/*navigazione e presentazione catalogo*/
+.filtri-container{
+	display: flex; 
+	flex-wrap: wrap;
+	padding: 20px;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 30px;
+	outline:darkgrey;
+	font-family: Oswald;
+	font-weight: lighter;
+}
+.filtro-gruppo{
+	display: flex;
+	flex-direction: column;
+}
+
+.filtro-select,
+.filtro-input{
+	padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    transition: border-color 0.3s ease;
+    min-width: 150px;
+}
+
+.filtro-select:hover,
+.filtro-input:hover{
+	border-color: #666;
+}
+
+.filtro-select:focus,
+.filtro-input:focus{
+	outline: none;
+	border-color:#333;
+	box-shadow: 0 0 5px(51,51,51,0.3);
+}
+
+/* Bottone reset */
+.btn-reset {
+    padding: 8px 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
+
+.btn-reset:hover {
+    background-color: #333;
 }
 
 div.descrizione {
@@ -82,10 +135,13 @@ footer{
 .column {
   float: left;
   width: 33.33%;
- /display: none; 
-  Hide columns by default 
+ display: none; 
+ animation: fadeIn 0.3s ease-in;
 }
 
+.column.show{
+	display:block;
+}
 /* Clear floats after rows */
 .row:after {
   content: "";

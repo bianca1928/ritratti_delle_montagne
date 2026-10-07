@@ -18,30 +18,56 @@
 		</header>
 		<main>
 			<h1> Esplora il catalogo!</h1>
-			<p> Naviga sulla <a href="#">MAPPA</a>, cerca per <a href="#">TIPOLOGIA</a> e <a href="#">AUTORE</a></p>
-			<div class="galleria">
-				<div class="myBtnContainer">
-					<button class="btn active" onclick="filterSelection( 'all' )"> Tutti </button>
-					<button class="btn" onclick="filterSelection( 'dipinto')"> Dipinto </button>
-					<button class="btn" onclick="filterSelection('stampa')"> Stampa</button>
-					<button class="btn" onclick="filterSelection('fotografia')"> Fotografia</button>
-					<button class="btn" onclick="filterSelection( 'operaletteraria' )"> Opera Letteraria </button>
-					<button class="btn" onclick="filterSelection( 'Tiratelli')"> A.Tiratelli</button>
-					<button class="btn" onclick="filterSelection('Escher')"> M.C.Escher</button>
-					<button class="btn" onclick="filterSelection( 'Patini')">Teofilo Patini</button>
-					<button class="btn" onclick="filterSelection( 'Zahartmann')"> K.Zahartmann </button>
-					<button class="btn" onclick="filterSelection( 'Michetti')"> F.P.Michetti</button>
-					<button class="btn" onclick="filterSelection( 'Cascella' )"> B.Cascella</button>
-					<button class="btn" onclick="filterSelection( 'Silone')"> I.Silone </button>
-					<button class="btn" onclick="filterSelection( 'Cespedes')"> A. de Cespedes</button>
-					<button class="btn" onclick="filterSelection( 'Bresson')"> H. Cartier-Bresson</button>
-					<button class="btn" onclick="filterSelection( 'Ginzburg' )"> N.Ginzburg</button>
-					<button class="btn" onclick="filterSelection( 'Giacomelli')">M.Giacomelli</button>
-				</div>
+			<p> Naviga sulla <a href="index_ritratti.html">MAPPA</a>, cerca per <a href="#collezione">TIPOLOGIA</a> e <a href="#collezione">AUTORE</a> e </a href="#collezione"> </p>
+			
+				<div class="filtri-container">
+					<div class="filtro/gruppo">
+						<label for="filtro-tipologia" class="filtro/select">Tipologia:</label>
+						<select id="filtro-tipologia" class="filtro/select">
+							<option value="dipinto">Dipinto</option>
+							<option value="stampa">Stampa</option>
+							<option value="fotografia">Fotografia</option>
+							<option value="operaletteraria"> Opera Letteraria</option>
+						</select>
+					</div>
+					<div class="filtro-gruppo">
+       					 <label for="filtro-autore">Autore:</label>
+       					 <select id="filtro-autore" class="filtro-select">
+        			  	  <option value="">Tutti</option>
+        			  	  <option value="Tiratelli">A. Tiratelli</option>
+        			 	   <option value="Patini">Teofilo Patini</option>
+        				    <option value="Zahartmann">K. Zahartmann</option>
+       					     <option value="Michetti">F.P. Michetti</option>
+       					     <option value="Escher">M.C. Escher</option>
+        				    <option value="Cascella">B. Cascella</option>
+          					  <option value="Bresson">H. Cartier-Bresson</option>
+     			   		    <option value="Giacomelli">M. Giacomelli</option>
+    			   		     <option value="Cespedes">A. de Cespedes</option>
+   				   		      <option value="Ginzburg">N. Ginzburg</option>
+       						 </select>
+    					</div>
+
+    					<div class="filtro-gruppo">
+        					<label for="filtro-data">Periodo:</label>
+        					<select id="filtro-data" class="filtro-select">
+         					   <option value="">Tutti</option>
+        				 	   <option value="1800-1850">	1800-1850</option>
+        					    <option value="1850-1900">1850-1900</option>
+        					    <option value="1900-1950">1900-1950</option>
+        					    <option value="1950-2000">1950-2000</option>
+      					  </select>
+    					</div>
+    					<div class="filtro-gruppo">
+       						 <label for="filtro-ricerca">Ricerca:</label>
+        					<input type="text" id="filtro-ricerca" class="filtro-input" placeholder="Cerca per titolo...">
+   						 </div>
+
+   						 <button id="reset-filtri" class="btn-reset">Ripristina</button>
+    				</div>
 
 				<!--griglia-->
 				<div class="row">
-					<div class="column dipinto Tiratelli">
+					<div class="column" data-tipologia="dipinto" data-autore="Tiratelli" data-data="1875">
 						<div class="descrizione">
 							<a href="#" title="scopri di più"><img src="img/opere/veduta_lago.jpeg" alt="Veduta del Lago del Fucino di A. Tiratelli"></a>
 							<h4> Veduta del Lago del Fucino</h4>
@@ -49,7 +75,7 @@
 							<p>1875</p>
 						</div>
 					</div>
-					<div class="column dipinto Patini">
+					<div class="column" data-tipologia="dipinto" data-autore="Patini" data-date="1886">
 						<div class="descrizione">
 							<a href="bestie_soma_pg.html"><img src="img/opere/Bestie_da_soma.jpg" alt="Bestie da Soma di Teofilo Pantini"></a>
 							<h4>Bestie da Soma</h4>
@@ -57,7 +83,7 @@
 							<p>1886</p>
 						</div>
 					</div>
-					<div class="column dipinto Zahartmann">
+					<div class="column" data-tipologia="dipinto" data-autore="Zahartmann" data-date="1889">
 						<div class="descrizione">
 							<img src="img/opere/Civita_dAntino.jpeg" alt=" Opgang til Civita d'Antino di Kristian Zahrtmann">
 							<h4>Opgang til Civita d'Antino</h4>
@@ -65,7 +91,7 @@
 							<p>1889</p>
 						</div>
 					</div>
-					<div class="column dipinto Michetti">
+					<div class="column" data-tipologia="dipinto" data-autore="Michetti" data-date="1895">
 						<div class="descrizione">
 							<img src="img/opere/La_figlia_di_Iorio.jpg" alt="La figlia di Iorio di Francesco P. Michetti">
 							<h4>La figlia di Iorio</h4>
@@ -73,7 +99,7 @@
 							<p> 1895</p>
 						</div>
 					</div>
-					<div class="column stampa Escher">
+					<div class="column" data-tipologia="stampa" data-autore="Escher" data-date="1858">
 						<div class="descrizione">
 							<img src="img/opere/belvedere.jpg" alt="Belvedere di M.C.Escher">
 							<h4>Belvedere</h4>
@@ -81,7 +107,7 @@
 							<p>1858</p>
 						</div>
 					</div>
-					<div class="column stampa Cascella">
+					<div class="column" data-tipologia="stampa" data-autore="Cascella" data-date="1902">
 						<div class="descrizione">
 							<img src="img/opere/roccascalegna.jpg" alt="Roccascalegna di Basilio Cascella">
 							<h4>Roccascalegna</h4>
@@ -89,7 +115,15 @@
 							<p>1902</p>
 						</div>
 					</div>
-					<div class="column fotografia Bresson">
+					<div class="column" data-tipologia="operaletteraria" data-autore="Silone" data-date="1930">
+						<div class="descrizione">
+							<img src="img/opere/Fontamara.jpg">
+							<h4>Fontamara</h4>
+							<p>Ignazio Silone</p>
+							<p> 193?</p>
+						</div>
+					</div>
+					<div class="column" data-tipologia="fotografia" data-autore="Bresson" data-date="1951">
 						<div class="descrizione">
 							<img src="img/opere/natale_Scanno.jpg" alt="Natale a Scanno di Cartier-Bresson">
 							<h4> Natale a Scanno</h4>
@@ -97,7 +131,7 @@
 							<p>1951</p>
 						</div>
 					</div>
-					<div class="column fotografia Giacomelli">
+					<div class="column" data-tipologia="fotografia" data-autore="Giacomelli" data-date="1964">
 						<div class="descrizione">
 							<img src="img/opere/bambino_scanno.jpg" alt="Il bambino di Scanno di Mario Giacomelli">
 							<h4> Il bambino di Scanno</h4>
@@ -105,7 +139,7 @@
 							<p>1964</p>
 						</div>
 					</div>
-					<div class="column romanzo Cespedes">
+					<div class="column" data-tipologia="operaletteraria data-autore="Cespedes" data-date="1949">
 						<div class="descrizione">
 							<img src="img/opere/dalla_parte_di_lei.jpg" alt="Dalla Parte di Lei di Alba de Cespedes">
 							<h4>Dalla Parte di Lei</h4>
@@ -113,7 +147,7 @@
 							<p>1949</p>
 						</div>
 					</div>
-					<div class="column romanzo Ginzburg">
+					<div class="column" data-tipologia="operaletteraria" data-autore="Ginzburg" data-date="1962">
 						<div class="descrizione">
 							<img src="img/opere/piccole_virtù.jpg" alt="Piccole Virtù di Natalia Ginzburg">
 							<h4> Piccole Virtù</h4>
@@ -129,53 +163,76 @@
 			Progetto di DH @ Bianca Miani
 		</footer>
 		<script>
-			filterSelection("all") // Execute the function and show all columns
-			function filterSelection(c) {
-  			var x, i;
-  			x = document.getElementsByClassName("column");
-  			if (c == "all") c = "";
-  			// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  			for (i = 0; i < x.length; i++) {
-  			  w3RemoveClass(x[i], "show");
-  			  if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  				}
-				}
+			document.addEventListener('DOMContentLoaded', function() {
+    // Elementi del DOM
+    const filtroTipologia = document.getElementById('filtro-tipologia');
+    const filtroAutore = document.getElementById('filtro-autore');
+    const filtroData = document.getElementById('filtro-data');
+    const filtroRicerca = document.getElementById('filtro-ricerca');
+    const resetBtn = document.getElementById('reset-filtri');
+    const opere = document.querySelectorAll('#galleria-opere .column');
 
-			// Show filtered elements
-			function w3AddClass(element, name) {
- 			 var i, arr1, arr2;
- 			 arr1 = element.className.split(" ");
- 			 arr2 = name.split(" ");
- 			 for (i = 0; i < arr2.length; i++) {
-  			  if (arr1.indexOf(arr2[i]) == -1) {
-  		    element.className += " " + arr2[i];
- 		   }
-			  }
-			}
+    // Funzione principale di filtro
+    function applicaFiltri() {
+        const tipologia = filtroTipologia.value;
+        const autore = filtroAutore.value;
+        const periodo = filtroData.value;
+        const ricerca = filtroRicerca.value.toLowerCase();
 
-			// Hide elements that are not selected
-			function w3RemoveClass(element, name) {
-			  var i, arr1, arr2;
-			  arr1 = element.className.split(" ");
-			  arr2 = name.split(" ");
-			  for (i = 0; i < arr2.length; i++) {
-		    while (arr1.indexOf(arr2[i]) > -1) {
-		      arr1.splice(arr1.indexOf(arr2[i]), 1);
-		    }
-			  }
-		  element.className = arr1.join(" ");
-			}
+        opere.forEach(opera => {
+            let mostra = true;
 
-		// Add active class to the current button (highlight it)
-		var btnContainer = document.querySelector(".myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-		for (var i = 0; i < btns.length; i++) {
-		  btns[i].addEventListener("click", function(){
-	    var current = document.getElementsByClassName("active");
-	    current[0].className = current[0].className.replace(" active", "");
-	    this.className += " active";
-	  });
-	}
+            // Filtro tipologia
+            if (tipologia && opera.dataset.tipologia !== tipologia) {
+                mostra = false;
+            }
+
+            // Filtro autore
+            if (autore && opera.dataset.autore !== autore) {
+                mostra = false;
+            }
+
+            // Filtro periodo/data
+            if (periodo) {
+                const [min, max] = periodo.split('-');
+                const anno = parseInt(opera.dataset.data);
+                if (anno < min || anno > max) {
+                    mostra = false;
+                }
+            }
+
+            // Filtro ricerca per titolo
+            if (ricerca && !opera.dataset.titolo.toLowerCase().includes(ricerca)) {
+                mostra = false;
+            }
+
+            // Mostra/nascondi opera
+            if (mostra) {
+                opera.classList.add('show');
+            } else {
+                opera.classList.remove('show');
+            }
+        });
+    }
+
+    // Event listener per tutti i filtri
+    filtroTipologia.addEventListener('change', applicaFiltri);
+    filtroAutore.addEventListener('change', applicaFiltri);
+    filtroData.addEventListener('change', applicaFiltri);
+    filtroRicerca.addEventListener('input', applicaFiltri);
+
+    // Reset filtri
+    resetBtn.addEventListener('click', function() {
+        filtroTipologia.value = '';
+        filtroAutore.value = '';
+        filtroData.value = '';
+        filtroRicerca.value = '';
+        applicaFiltri();
+    });
+
+    // Mostra tutte le opere al caricamento
+    applicaFiltri();
+});
 		</script>
 	</body>
 </html>

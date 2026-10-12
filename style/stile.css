@@ -1,3 +1,4 @@
+/*generale*/
 body{
 	background-color: rgb(54, 69, 79);
 	font-family: Garamond;
@@ -51,7 +52,7 @@ h1{
     border-radius: 5px;
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease;/*capisci qui cos'è*/
     min-width: 150px;
 }
 
@@ -74,7 +75,7 @@ h1{
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;/*capisci cosa sia*/
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     transition: background-color 0.3s ease;
@@ -84,37 +85,64 @@ h1{
 .btn-reset:hover {
     background-color: #333;
 }
-
+/*box galleria*/
 div.descrizione {
 	box-sizing: border-box;
 	background-color: white;
-	width: auto; 
-	height: auto;
+	width: 300px; 
+	height: 300px;
+	border-color: darkgrey;
+	border-style: solid;
 }
 .descrizione img{
-	width: 200px;
-	height: auto;
+	width: auto;
+	height: 150px;
 
 }
 main{
 	background-color: darkgrey;
 	float: left;
-	width: 70%;
+	width: 75%;
 	/*height: 100%;*/
 	text-align: center;
 }
 aside{
-	width: 30%;
+	width: 25%;
 	height: 100%;
 	float: right;
-	/*text-align: center;*/
+	text-align: center;
+	color: white;
 }
 
+/*a aside:visited {
+	color: white;
+}/*capisci qui cosa non va
+a aside {
+	background-color: white;
+}*/
+
+div.info{
+	background-color: white;
+}
+
+ div.info h3{
+	color: black;
+	font-family: Oswald;
+}
+
+div.info p{
+	color: black;
+}
+
+div.info img{
+	width: 200px;
+	height: auto;
+}
 footer{
-	position: fixed;
- 	left: 0;
+	position: static; /*capisci qui cosa non sta ridando*/
+ 	/*left: 0;
  	 bottom: 0;
-	 width: 100%;
+	 width: 100%;*/
 	text-align: center;
 }
 

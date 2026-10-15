@@ -5,6 +5,8 @@
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style/stile.css">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=download">
+		
 		
 	</head>
 	<body>
@@ -21,6 +23,13 @@
 				<label for="ricerca">Cerca sul sito...</label>
 				<input type="text" name="ricerca" id="ricerca">
 			</form>
+			<div class="info">
+				<h3>Scarica i dati</h3>
+				<ul>
+				<li> file csv<a href="ritratti_di_montagne.csv" download><span class="material-symbols-outlined">download</span></a></li>
+				<li>file json<a href="ritratti_di_montagne.json" download><span class="material-symbols-outlined">download</span></a></li>
+
+			</div>
 		</aside>
 		<main>
 			<h1> dati catalogo</h1>
@@ -173,9 +182,10 @@
 					</tr>
 				<tbody>
 			</table>
-		</main>
-		<footer>
+			<footer>
 			Progetto di DH @ Bianca Miani
-		</footer>
+			</footer>
+		</main>
+		
 	</body>
 </html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<metadata 
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:dcterms="http://purl.org/dc/terms/"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:tei="http://www.tei-c.org/ns/1.0" 
+		xmlns:mp="http://ilMioProgetto/schema">
+
+		<dc:title>Bestie da Soma</dc:title>
+		<dc:creator>Teofilo Patini</dc:creator>
+		<tei:author>Teofilo Patini</tei:author>
+		<dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF"> http://viaf.org/viaf/52491556 </dcterms:creator>
+		<dc:subject>Verismo</dc:subject>
+		<dc:description>l'opera rappresenta contadine che si riposano sulla strada ecc ecc stanno lì, l'autore vuole ecce cce *leggi di più* Sofferenza sofferenza, contadini sofferenza ecc ecc </dc:description>
+		<dc:publisher>Università di Bologna</dc:publisher>
+		<dc:contributor>Bianca Miani</dc:contributor>
+		<dc:date>1886</dc:date>
+		<dcterms:created>2026</dcterms:created>
+		<mp:luogo mp:tipo="mp:creazione"> Rocca Pia</mp:luogo>
+		<dc:type mp:versione="mp:digitale">image</dc:type>
+		<dc:type mp:versione="mp:analogico">dipinto</dc:type>
+		<dc:format mp:versione="mp:digitale">jpeg</dc:format>
+		<dc:format mp:versione="mp:analogico">olio su tela</dc:format>
+		<dcterms:extent mp:versione="mp.analogico">244x416cm</dcterms:extent>
+		<dcterms:extent mp:versione="mp:digitale">161kb</dcterms:extent> 
+		<dc:identifier></dc:identifier>
+		<dc:source>Bestie da Soma, Palazzo del Governo, L'Aquila </dc:source>
+		<dc:language>italiano</dc:language>
+		<dc:coverage>Bologna</dc:coverage>
+		<dc:coverage type="URI">
+  		https://sws.geonames.org/3181928/
+		</dc:coverage>
+		<dc:rights>Licenza riservata</dc:rights>
+		<dcterms:provenance> Palazzo del governo, L'Aquila</dcterms:provenance>
+	</metadata>
+

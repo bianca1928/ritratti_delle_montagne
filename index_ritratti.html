@@ -3,6 +3,30 @@
 	<head>
 		<title>Ritratti di Montagne</title>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--- dc-->
+		 <meta name="DC.Title" content="Ritratti di Montagne">
+    	<meta name="DC.Creator" content="Bianca Miani">
+    	<meta name="DC.Subject" content="l'immaginario delle montagne dell'appennino abruzzese nell'arte">
+    	<meta name="DC.Description" content="il sito contiene una galleria di materiali artistici e letterari che mettono a confronto le diverse visioni e letture dell'immaginario delle montagne, specificatamente le montagne dell'appennino centrale">
+   		 <meta name="DC.Publisher"
+        content="Università di Bologna">
+   		 <meta name="DC.Date" content="10-2026">
+   		 <meta name="DC.Type" content="Sito web">
+   		 <meta name="DC.Format" content="HTML/CSS/JS">
+   		 <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+   		 <meta name="DC.Source" content="Pinacoteca Patiana, MUNDA, Biblioteca Digitale Molisana e Abruzzese"> 
+   		 <meta name="DC.Language" content="it">
+   		 <meta name="DC.Relation"
+        content="https://archive.org/details/de-titta-nella-vita-oltre-la-vita/mode/1up">
+        <meta name="DC.Relation"
+        content="https://www.cesaredetitta.com/">
+        <meta name="DC.Relation"
+        content="http://www.teofilopatini.org/">
+   		 <link rel="DC.Coverage" content="Bologna, Italia"
+        href="http://vocab.getty.edu/page/tgn/7004847">
+   		 <meta name="DC.Rights"
+        content="Materiale di progetto didattico e di ricerca. Tutti i diritti sono riservati agli autori e alle fonti citate.">
+        <!--- dc-->
 		<link rel="stylesheet" type="text/css" href="style/stile.css">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 		<!--leaftleet mappa-->
@@ -16,7 +40,9 @@
 				<img src="img/titolo.png" alt="Ritratti di montagne">
 			</div>
 			<nav class="topnav"> 
-				<a href="index_ritratti.html" class="active" title="Home"> HOME</a> <a href="catalogo_index.html" class="active" title="catalogo">CATALOGO</a> <a href="dati_montagne.html" class="active" title="Dati"> DATI</a>
+				<a href="index_ritratti.html" class="active" title="vai alla Home"> HOME</a>
+				<a href="catalogo_index.html" class="active" title="Catalogo">CATALOGO</a> 
+				<a href="dati_montagne.html" class="active" title="Dati"> DATI</a>
 			</nav>
 		</header>
 		<aside>
@@ -25,12 +51,12 @@
 				<input type="text" name="ricerca" id="ricerca">
 			</form>
 			<div class="info">
-				<p> <strong>Riferimenti utili: </strong></p>
+				<h3><strong>Riferimenti utili: </strong></h3>
 				<li>
-					<ul> <a href="https://it.wikipedia.org/wiki/Appennino_abruzzese"> Informazioni generali</a></ul>
-					<ul> <a href="https://www.parcoabruzzo.it/" class="active"> Sito ufficiale del Parco Nazionale d Abruzzo, Lazio e Molise</a> </ul>
-					<ul> <a href="https://www.parcomajella.it/" class="active">Sito ufficiale del Parco Nazionale della Maiella</a></ul>
-					<ul> <a href="https://www.gransassolagapark.it/" class="active"> Sito ufficiale del Parco Nazionale del Gran Sasso e dei Monti della Laga </a></ul>
+					<ul> <a href="https://it.wikipedia.org/wiki/Appennino_abruzzese" title="wikipedia.org"> Informazioni generali</a></ul>
+					<ul> <a href="https://www.parcoabruzzo.it/" class="active" title="www.parcoabruzzo.it"> Sito ufficiale del Parco Nazionale d Abruzzo, Lazio e Molise</a> </ul>
+					<ul> <a href="https://www.parcomajella.it/" class="active" title="www.parcomajella.it">Sito ufficiale del Parco Nazionale della Maiella</a></ul>
+					<ul> <a href="https://www.gransassolagapark.it/" class="active" title="www.gransassolagapark.it"> Sito ufficiale del Parco Nazionale del Gran Sasso e dei Monti della Laga </a></ul>
 				</li>
 
 			</div>
@@ -38,12 +64,15 @@
 		<main>
 			<div>
 				<h1> Presentazione Progetto</h1>
-				<p> Ritratti Di Montagne vuole presentare una raccolta di rappresentazioni artistiche dell'appennino centrale-in particolare del versante abruzzese- nel secolo compreso tra il 1850 e il 1950, offrendo una panoramica attraverso vari format e autori. Una visione che alterna una visione romantica, che sottolinea l'idillio bucolico della natura incontaminata, ad una visione che non esita a sottolineare le difficoltà di un territorio tanto irragiungibile.</p>
-				<br>
-				le opere sulla base di cosa sono state scelte ecc ecc
+				<p><em> Ritratti di Montagne</em> è un progetto di Digital Humanities che si pone l'obiettivo di offrire una panoramica delle rappresentazioni artistico-letterarie dell'appennino centro-meridionale, con una particolare attenzione al versante abruzzese nel periodo compreso dal 1850 fino ad oggi. In particolare si vuole sottolineare come in tali opere si alterni una visione idilliaca e bucolica della natura a una rappresentazione che non esita a sottolineare la povertà e le difficoltà della vita in questi territori.
+				</p>
+				<p>Tutte le opere scelte hanno nel testo e nella volontà dell'autore un collegamento a luoghi reali e individuabili su mappa. Gli autori scelti sono di nazionalità varia e hanno rapporti diversi con il territorio: da Escher, legato alla scuola di pittura danese a Civitaquana (AQ), a Alba de Cespedes che use le memorie del confinio a Toricella Peligna per il suo romanzo...(<a href="#"> continua a leggere</a>) </p>
 				
 			</div>
-			<div id="map"></div>
+			<br>
+			<h1> Naviga sulla mappa</h1>
+			<div id="map">
+			</div>
 
 				<script src="https://unpkg.com/leaflet/dist/leaflet.js"  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     			 crossorigin=""></script>
@@ -54,34 +83,38 @@
 					}).addTo(map);
 
 					var marker = L.marker([42.21428,13.91350]).addTo(map);
-					marker.bindPopup('<a href="#">Tocco da Casauria</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Tocco da Casauria</a>')
 
 					var marker = L.marker([41.88608,13.47579]).addTo(map);
-					marker.bindPopup('<a href="#">Civita Antino</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Civita Antino</a>')
 
 					var marker = L.marker([41.9648,13.9438]).addTo(map);
-					marker.bindPopup('<a href="#">Pettorano sul Gizio</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Pettorano sul Gizio</a>')
 
 					var marker = L.marker([41.90386,13.88021]).addTo(map);
-					marker.bindPopup('<a href="#">Scanno</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Scanno</a>')
 
 					var marker = L.marker([41.9113,13.9873]).addTo(map);
-					marker.bindPopup('<a href="bestie_soma_pg.html">Rocca Pia</a>')
+					marker.bindPopup('<a href="bestie_soma_pg.html" title="Esplora">Rocca Pia</a>')
 
 					var marker = L.marker([42.07077,14.32271]).addTo(map);
-					marker.bindPopup('<a href="#">Roccascalegna</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Roccascalegna</a>')
 
 					var marker = L.marker([41.9959,13.5471]).addTo(map);
-					marker.bindPopup('<a href="#">Piana del Fucino</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Piana del Fucino</a>')
 
 					var marker = L.marker([42.0279,14.2743]).addTo(map);
-					marker.bindPopup('<a href="#">Torricella Peligna</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Torricella Peligna</a>')
 
 					var marker = L.marker([42.43608,13.30127]).addTo(map);
-					marker.bindPopup('<a href="#">Pizzoli</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Pizzoli</a>')
+
+					var marker = L.marker([42.15981,14.35599]).addTo(map);
+					marker.bindPopup('<a href="#" title="Esplora">Sant Eusanio del Sangro</a>')
+
 
 					var marker = L.marker([42.02543,13.65790]).addTo(map);
-					marker.bindPopup('<a href="#">Pescina</a>')
+					marker.bindPopup('<a href="#" title="Esplora">Pescina</a>')
 				</script>
 				<footer>
 				Progetto di DH @ Bianca Miani

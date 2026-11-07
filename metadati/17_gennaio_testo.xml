@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<TEI
+		xmlns:tei="http://www.tei-c.org/ns/1.0" 
+		xmlns:mp="http://ilMioProgetto/schema">
+			<teiHeader>
+				<fileDesc>
+					<titleStmt>
+						<title type="main">17 Gennaio </title>
+						<title type="alt">(Sant'Antonio Abate)</title>
+						<author>
+  							<persName ref="https://viaf.org/en/viaf/810440">Cesare De Titta</persName>
+						</author>
+						<respStmt>
+							<resp>Revisione Codifica TEI</resp>
+							<name>Bianca Miani</name>
+							 <resp>Digitalizzazione a cura di</resp>
+      						<name>Gianni Timpone</name>
+						</respStmt>
+					</titleStmt>
+						<publicationStmt>
+    						<p>Trascrizione digitale realizzata per uso di studio e consultazione.</p>
+						</publicationStmt>
+					<sourceDesc>
+						<author>Cesare De Titta</author>
+       					 <title>Nella Vita Oltre La Vita</title>
+       					 <pubPlace>Casalbordino</pubPlace>
+    					<publisher>Tip. De Arcangelis</publisher>
+    					<date when="1900">1900</date>
+
+  						<p> Scheda del libro:
+   							 <ref target="https://www.bdmpaterno.eu/archives/5132">
+     						 Biblioteca Digitale
+   							 </ref>
+  						</p>
+ 						 <p>
+ 						   Copia digitale consultata:
+ 						   <ref target="https://archive.org/details/de-titta-nella-vita-oltre-la-vita/page/24/mode/2up">
+ 						     Internet Archive
+						    </ref>
+					  </p>
+					</sourceDesc>
+				</fileDesc>
+			</teiHeader>
+			<text>
+				<body>
+					<div type="section" n="1">
+				        <head>I.</head>
+				        <lg>
+				          <l>Ridevano in sogno ancor la cena</l>
+				          <l>Lieta, l’ entrar del vecchio in aria stanca,</l>
+				          <l>Lo sbucar del diavolo in catena,</l>
+				        </lg>
+				        <lg>
+				          <l>Il vecchio avea la barba lunga e bianca,</l>
+				          <l>E cantava il deserto, Il fier demonio</l>
+				          <l>Che s'era messo li sotto una panca,</l>
+				        </lg>
+				        <lg>
+				          <l>Certe cornette avea di novo conio</l>
+				          <l>Un ceffo nero nero, e con bizzarre</l>
+				          <l>Boccacce subsannava sant'Antonio.</l>
+				        </lg>
+				        <lg>
+				          <l>Sant'Antonio cantava. Due chitarre</l>
+				          <l>Batteano accompagnando in dolce suono.</l>
+				          <l>Sant'Antonio cantava: « Cento marre</l>
+				        </lg>
+				        <lg>
+				          <l>Ti lavorino i campi: il tuo colono</l>
+				          <l>Fido ti sia: non rubi il tuo vicino:</l>
+				          <l>Dacci un biechiere del tuo vino buono,</l>
+				          <l>Chè siamo stanchi, e assai lungo è il cammino. »</l>
+				        </lg>
+				     </div>
+
+				      <div type="section" n="2">
+				        <head>II.</head>
+				        <lg>
+				          <l>Ardea sul focolare una gran fiamma,</l>
+				          <l>Ed era una gran gioia tutt’ intorno...</l>
+				          <l>Sognavano così, quando la mamma</l>
+				        </lg>
+				        <lg>
+				          <l>Gridò ai bimbi dormenti: « È giorno, è giorno,</l>
+				          <l>Quanti asinelli, quanti. boverelli !</l>
+				          <l>Come ogni cavallino è vago e adorno!</l>
+				        </lg>
+				        <lg>
+				          <l>Mai vispa nidiata di fringuelli</l>
+				          <l>Fe’ tanta festa all’imbeccata, quanto</l>
+				          <l>Giubilarono i piccoli fratelli</l>
+				        </lg>
+				        <lg>
+				          <l>Dentro il lettuccio. Il giorno del gran santo</l>
+				          <l>Entrò per la finestra con un sole</l>
+				          <l>Vivo e un’azzurrità ch'era un incanto.</l>
+				        </lg>
+				        <lg>
+				          <l>Godea la mamma tra la giovin prole:</l>
+				          <l>Dalle sue braccia i bimbi come uccelli</l>
+				          <l>Balzavan ripetendo le parole:</l>
+				        </lg>
+				        <lg>
+				          <l>« Quanti asinelli, quanti boverelli! »</l>
+				        </lg>
+				      </div>
+
+				      <div type="section" n="3">
+				        <head>III.</head>
+				        <lg>
+				          <l>Ridea bianca di neve la Maiella,</l>
+				          <l>Rideva azzurro azzurro lunge il mare:</l>
+				          <l>Il santo volle una giornata bella.</l>
+				        </lg>
+				        <lg>
+				          <l>Venire si vedevano ed andare</l>
+				          <l>Donne, fanciulli ed uomini con cappe</l>
+				          <l>In un murmure grande d’ alveare.</l>
+				        </lg>
+				        <lg>
+				          <l>Bovi, asini, cavalli, con gualdrappe,</l>
+				          <l>Con fasce, con pennacchi, con sonagli,</l>
+				          <l>Con ceoccarde a colori, e fiocchi e nappe,</l>
+				        </lg>
+				        <lg>
+				          <l>Si schieravan, tra lucidi barbagli</l>
+				          <l>D’acciaio e ottone al sole, nel sagrato,</l>
+				          <l>E si udivan nitriti e mugghi e ragli,</l>
+				        </lg>
+				        <lg>
+				          <l>Sonaron le campane. L’adunato</l>
+				          <l>Popolo allor con improvvisa ressa</l>
+				          <l>Mosse verso la chiesa, Già il curato</l>
+				        </lg>
+				        <lg>
+				          <l>Era all'altare. Si dicea la messa.</l>
+				        </lg>
+				      </div>
+
+				      <div type="section" n="4">
+				        <head>IV.</head>
+				        <lg>
+				          <l>La messa terminò. Sul fondo nero</l>
+				          <l>Della porta, di voti e grazie carca</l>
+				          <l>Apparve, con in volto anco il mistero</l>
+				        </lg>
+				        <lg>
+				          <l>Della preghiera e della vita parca,</l>
+				          <l>Con la sua barba candida e fluente</l>
+				          <l>La statüa del gran cenobiarca.</l>
+				        </lg>
+				        <lg>
+				          <l>« O sant'Antonio, tutta questa gente,</l>
+				          <l>Divota e inginocchiata ai piedi tuoi,</l>
+				          <l>Raccomanda alla tua virtù possente</l>
+				        </lg>
+				        <lg>
+				          <l>La forza salda e docile dei buoi,</l>
+				          <l>La generosità delle cavalle,</l>
+				          <l>Gli asini miti, le sue mandre, i suoi</l>
+				        </lg>
+				        <lg>
+				          <l>Pollai. Quanti animali ha nelle stalle,</l>
+				          <l>Quanti brucan le foglie alle pendici,</l>
+				          <l>Quanti pascono l’erbe nella valle,</l>
+				        </lg>
+				        <lg>
+				          <l>Tutti, o gran santo, guarda e benedici. »</l>
+				          <l>Il curato, un bel vecchio, allor con voce</l>
+				          <l>Alta e commossa, supplicando Iddio,</l>
+				        </lg>
+				        <lg>
+				          <l>Sul popolo fe’ il segno della croce;</l>
+				          <l>Asperse l’acqua benedetta, e pio</l>
+				          <l>Scosse il baston del santo: il campanello</l>
+				        </lg>
+				        <lg>
+				          <l>Che n'era in cima, mise un tintinnio.</l>
+				          <l>Ed a quel tintinnio fu un vario e bello</l>
+				          <l>Ondeggiar di colori: di carriera</l>
+				        </lg>
+				        <lg>
+				          <l>Si mosse ogni cavallo e somarello.</l>
+				          <l>Squassavano pennacchio e sonagliera,</l>
+				          <l>Trascorrevano a frotte, e via lontani.</l>
+				        </lg>
+				        <lg>
+				          <l>« O mamma, sant'Antonio d’ieri sera</l>
+				          <l>Venuto è in chiesa a benedir stamani?</l>
+				          <l>O mamma, o mamma, — i piccoli fratelli</l>
+				        </lg>
+				        <lg>
+				          <l>Dicean con lieto battere di mani —</l>
+				          <l>Quanti asinelli, quanti boverelli! »</l>
+				        </lg>
+				      </div>
+    			</body>
+			</text>
+		</TEI>

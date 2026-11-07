@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<metadata 
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:dcterms="http://purl.org/dc/terms/"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:tei="http://www.tei-c.org/ns/1.0" 
+		xmlns:mp="http://ilMioProgetto/schema">
+
+		<dc:title>17 Gennaio</dc:title>
+		<dcterms:alternative>Sant'Antonio Abate</dcterms:alternative>
+		<dc:creator> Cesare De Titta</dc:creator>
+		<tei:author>Cesare De Titta</tei:author>
+		<dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">https://viaf.org/en/viaf/810440</dcterms:creator>
+		<dc:publisher>Tip. De Arcangelis</dc:publisher>
+		<dc:contributor>Bianca Miani</dc:contributor>
+		<dc:date>1900</dc:date>
+		<dcterms:created>2026</dcterms:created>
+		<mp:luogo mp:tipo="mp:creazione">Torricella Peligna</mp:luogo>
+		<dc:identifier></dc:identifier>
+		<dcterms:isPartOf>Nella Vita oltre la Vita</dcterms:isPartOf>
+		<dcterms:source>https://archive.org/details/de-titta-nella-vita-oltre-la-vita/page/24/mode/2up
+		</dcterms:source>
+		<dcterms:references>
+  		https://www.bdmpaterno.eu/archives/5132
+		</dcterms:references>
+		<dc:language>it</dc:language>
+		<dc:coverage>Bologna</dc:coverage>
+		<dc:coverage type="URI">
+  		https://sws.geonames.org/3181928/
+		</dc:coverage>
+		<dc:rights>Licenza riservata</dc:rights>
+	</metadata>

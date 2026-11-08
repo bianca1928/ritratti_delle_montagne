@@ -1,4 +1,4 @@
-# ritratti_delle_montagne
+# presentazione sito
 In questa repo c'è il materiale di un sito web "ritratti di montagne", sono attivi i link al catalogo, la tabella dati e le pagine degli item "Bestie da soma" e "17 Gennaio"
 # materiale del sito:
 1. homepage (index.html)

@@ -11,6 +11,7 @@
 		<tei:author>Teofilo Patini</tei:author>
 		<dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF"> http://viaf.org/viaf/52491556 </dcterms:creator>
 		<dc:subject>Verismo</dc:subject>
+		<dc:subject type="URI" mp:authority="BNCF">https://thes.bncf.firenze.sbn.it/termine.php?id=27862</dc:subject>
 		<dc:description>Opera di denuncia sociale delle condizioni di vita femminili nella seconda metà dell'Ottocento abruzzese. Tre donne, vestite con abiti tradizionali vengono rappresentate durante un momento di riposo dal duro lavoro quotidiano.</dc:description>
 		<dc:publisher>Università di Bologna</dc:publisher>
 		<dc:contributor>Bianca Miani</dc:contributor>
@@ -27,7 +28,7 @@
 		<dc:source>Bestie da Soma, Palazzo del Governo, L'Aquila </dc:source>
 		<dc:language>italiano</dc:language>
 		<dc:coverage>Bologna</dc:coverage>
-		<dc:coverage type="URI">
+		<dc:coverage type="URI" mp:authority="geonames">
   		https://sws.geonames.org/3181928/
 		</dc:coverage>
 		<dc:rights>Licenza riservata</dc:rights>

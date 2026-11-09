@@ -153,7 +153,7 @@ ul.breadcrumb li a:hover {
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;/*capisci cosa sia*/
+    cursor: pointer;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     align-self: flex-end;
@@ -201,8 +201,7 @@ div.descrizione {
 .column {
   float: left;
   width: 33.33%;
- display: block; 
- animation: fadeIn 0.3s ease-in;
+ display: block;
 }
 
 

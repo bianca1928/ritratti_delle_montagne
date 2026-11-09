@@ -4,7 +4,7 @@ body{
 	font-family: Garamond;
 }
 main{
-	background-color: darkgrey;
+	background-color: #E4E5E0;
 	float: left;
 	width: 75%;
 	text-align: center;
@@ -20,11 +20,13 @@ p{
 }
 
 footer{
+	clear: both;
 	padding: 50px;
+	box-sizing: border-box;
 	background-color: rgb(54, 69, 79);
   	bottom: 0;
 	width: 100%;
-	height: 50px;
+	height: 150px;
 }
 /*aside*/
 aside{
@@ -190,6 +192,11 @@ div.descrizione {
 /*griglia*/
 .row {
   margin: 8px 8px;
+}
+  .row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .column {
   float: left;

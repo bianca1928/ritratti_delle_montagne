@@ -83,7 +83,7 @@
 				        </lg>
 				        <lg>
 				          <l>Gridò ai bimbi dormenti: « È giorno, è giorno,</l>
-				          <l>Quanti asinelli, quanti. boverelli !</l>
+				          <l>Quanti asinelli, quanti boverelli !</l>
 				          <l>Come ogni cavallino è vago e adorno!</l>
 				        </lg>
 				        <lg>
@@ -162,14 +162,15 @@
 				          <l>La generosità delle cavalle,</l>
 				          <l>Gli asini miti, le sue mandre, i suoi</l>
 				        </lg>
-						<pb n="31"><pb/>
+						<pb n="31"/>
 				        <lg>
 				          <l>Pollai. Quanti animali ha nelle stalle,</l>
 				          <l>Quanti brucan le foglie alle pendici,</l>
 				          <l>Quanti pascono l’erbe nella valle,</l>
 				          <l>Tutti, o gran santo, guarda e benedici.»</l>
 						</lg>
-						<pb n="32"><pb/>
+						<pb n="32"/>
+					    </div>
 						<div type="section" n="5">
 				        <head><num value="5"> V.</num></head>
 						<lg>
@@ -192,7 +193,7 @@
 				          <l>Trascorrevano a frotte, e via lontani.</l>
 						  <l>« O mamma, sant'Antonio d’ieri sera</l>
 				        </lg>
-						<pb n="33"><pb/>
+						<pb n="33"/>
 				        <lg>
 				          <l>Venuto è in chiesa a benedir stamani?</l>
 				          <l>O,mamma, o mamma, — i piccoli fratelli</l>
@@ -202,7 +203,7 @@
 				          <l>Quanti asinelli, quanti boverelli! »</l>
 				        </lg>
 						</div>
-						<pb n="34"><pb/>
+						<pb n="34"/>
     			</body>
 			</text>
 		</TEI>

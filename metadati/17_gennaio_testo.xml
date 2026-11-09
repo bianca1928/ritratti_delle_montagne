@@ -44,7 +44,7 @@
 			<text>
 				<body>
 					<div type="section" n="1">
-				        <head>I.</head>
+				        <head><num value="1">I.</num></head>
 				        <lg>
 				          <l>Ridevano in sogno ancor la cena</l>
 				          <l>Lieta, l’ entrar del vecchio in aria stanca,</l>
@@ -63,27 +63,28 @@
 				        <lg>
 				          <l>Sant'Antonio cantava. Due chitarre</l>
 				          <l>Batteano accompagnando in dolce suono.</l>
-				          <l>Sant'Antonio cantava: « Cento marre</l>
+				          <l>Sant'Antonio cantava: <q>« Cento marre</l>
 				        </lg>
+						<pb n="25">
 				        <lg>
 				          <l>Ti lavorino i campi: il tuo colono</l>
 				          <l>Fido ti sia: non rubi il tuo vicino:</l>
 				          <l>Dacci un biechiere del tuo vino buono,</l>
-				          <l>Chè siamo stanchi, e assai lungo è il cammino. »</l>
+				          <l>Chè siamo stanchi, e assai lungo è il cammino. »</q></l>
 				        </lg>
 				     </div>
-
+					 <pb n="26">
 				      <div type="section" n="2">
-				        <head>II.</head>
+				        <head><num value="2">II.</num></head>
 				        <lg>
 				          <l>Ardea sul focolare una gran fiamma,</l>
 				          <l>Ed era una gran gioia tutt’ intorno...</l>
 				          <l>Sognavano così, quando la mamma</l>
 				        </lg>
 				        <lg>
-				          <l>Gridò ai bimbi dormenti: « È giorno, è giorno,</l>
+				          <l>Gridò ai bimbi dormenti:<q> « È giorno, è giorno,</l>
 				          <l>Quanti asinelli, quanti. boverelli !</l>
-				          <l>Come ogni cavallino è vago e adorno!</l>
+				          <l>Come ogni cavallino è vago e adorno!</q></l>
 				        </lg>
 				        <lg>
 				          <l>Mai vispa nidiata di fringuelli</l>
@@ -95,18 +96,19 @@
 				          <l>Entrò per la finestra con un sole</l>
 				          <l>Vivo e un’azzurrità ch'era un incanto.</l>
 				        </lg>
+						<pb n="27">
 				        <lg>
 				          <l>Godea la mamma tra la giovin prole:</l>
 				          <l>Dalle sue braccia i bimbi come uccelli</l>
 				          <l>Balzavan ripetendo le parole:</l>
 				        </lg>
 				        <lg>
-				          <l>« Quanti asinelli, quanti boverelli! »</l>
+				          <l><q>« Quanti asinelli, quanti boverelli! »</q></l>
 				        </lg>
 				      </div>
-
+						<pb n="28">
 				      <div type="section" n="3">
-				        <head>III.</head>
+				        <head><num value="3">III.</num></head>
 				        <lg>
 				          <l>Ridea bianca di neve la Maiella,</l>
 				          <l>Rideva azzurro azzurro lunge il mare:</l>
@@ -127,6 +129,7 @@
 				          <l>D’acciaio e ottone al sole, nel sagrato,</l>
 				          <l>E si udivan nitriti e mugghi e ragli,</l>
 				        </lg>
+						  <pb n="29">
 				        <lg>
 				          <l>Sonaron le campane. L’adunato</l>
 				          <l>Popolo allor con improvvisa ressa</l>
@@ -136,9 +139,9 @@
 				          <l>Era all'altare. Si dicea la messa.</l>
 				        </lg>
 				      </div>
-
+						<pb n="30">
 				      <div type="section" n="4">
-				        <head>IV.</head>
+				        <head><num value="4">IV.</num></head>
 				        <lg>
 				          <l>La messa terminò. Sul fondo nero</l>
 				          <l>Della porta, di voti e grazie carca</l>
@@ -150,7 +153,7 @@
 				          <l>La statüa del gran cenobiarca.</l>
 				        </lg>
 				        <lg>
-				          <l>« O sant'Antonio, tutta questa gente,</l>
+				          <l><q>« O sant'Antonio, tutta questa gente,</l>
 				          <l>Divota e inginocchiata ai piedi tuoi,</l>
 				          <l>Raccomanda alla tua virtù possente</l>
 				        </lg>
@@ -159,40 +162,46 @@
 				          <l>La generosità delle cavalle,</l>
 				          <l>Gli asini miti, le sue mandre, i suoi</l>
 				        </lg>
+						<pb n="31">
 				        <lg>
 				          <l>Pollai. Quanti animali ha nelle stalle,</l>
 				          <l>Quanti brucan le foglie alle pendici,</l>
 				          <l>Quanti pascono l’erbe nella valle,</l>
-				        </lg>
-				        <lg>
-				          <l>Tutti, o gran santo, guarda e benedici. »</l>
+				          <l>Tutti, o gran santo, guarda e benedici. »</q></l>
+						</lg>
+						<pb n="32">
+						<div type="section" n="5">
+				        <head><num value="5"> V.</num></head>
+						<lg>
 				          <l>Il curato, un bel vecchio, allor con voce</l>
-				          <l>Alta e commossa, supplicando Iddio,</l>
+				          <l>Alta e commossa, supplicando Iddio,</l> 
+						 <l>Sul popolo fe’ il segno della croce;</l>
 				        </lg>
 				        <lg>
-				          <l>Sul popolo fe’ il segno della croce;</l>
 				          <l>Asperse l’acqua benedetta, e pio</l>
 				          <l>Scosse il baston del santo: il campanello</l>
+							<l>Che n'era in cima, mise un tintinnio.</l>
 				        </lg>
 				        <lg>
-				          <l>Che n'era in cima, mise un tintinnio.</l>
 				          <l>Ed a quel tintinnio fu un vario e bello</l>
 				          <l>Ondeggiar di colori: di carriera</l>
+							<l>Si mosse ogni cavallo e somarello.</l>
 				        </lg>
 				        <lg>
-				          <l>Si mosse ogni cavallo e somarello.</l>
 				          <l>Squassavano pennacchio e sonagliera,</l>
 				          <l>Trascorrevano a frotte, e via lontani.</l>
+						  <l><q>« O mamma, sant'Antonio d’ieri sera</l>
 				        </lg>
+						<pb n="33">
 				        <lg>
-				          <l>« O mamma, sant'Antonio d’ieri sera</l>
 				          <l>Venuto è in chiesa a benedir stamani?</l>
-				          <l>O mamma, o mamma, — i piccoli fratelli</l>
+				          <l>O,mamma, o mamma, — i piccoli fratelli</l>
+							<l>Dicean con lieto battere di mani — </l>	
 				        </lg>
 				        <lg>
-				          <l>Dicean con lieto battere di mani —</l>
-				          <l>Quanti asinelli, quanti boverelli! »</l>
+				          <l>Quanti asinelli, quanti boverelli! »</q></l>
 				        </lg>
+						<pb n="34">
 				      </div>
     			</body>
 			</text>

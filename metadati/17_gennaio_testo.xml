@@ -43,6 +43,7 @@
 			</teiHeader>
 			<text>
 				<body>
+					<pb n="25">
 					<div type="section" n="1">
 				        <head><num value="1">I.</num></head>
 				        <lg>
@@ -65,7 +66,8 @@
 				          <l>Batteano accompagnando in dolce suono.</l>
 				          <l>Sant'Antonio cantava: <q>« Cento marre</l>
 				        </lg>
-						<pb n="25">
+					<pb/>
+					 <pb n="26">
 				        <lg>
 				          <l>Ti lavorino i campi: il tuo colono</l>
 				          <l>Fido ti sia: non rubi il tuo vicino:</l>
@@ -73,7 +75,8 @@
 				          <l>Chè siamo stanchi, e assai lungo è il cammino. »</q></l>
 				        </lg>
 				     </div>
-					 <pb n="26">
+					 <pb/>
+					 <pb n="27">
 				      <div type="section" n="2">
 				        <head><num value="2">II.</num></head>
 				        <lg>
@@ -96,7 +99,8 @@
 				          <l>Entrò per la finestra con un sole</l>
 				          <l>Vivo e un’azzurrità ch'era un incanto.</l>
 				        </lg>
-						<pb n="27">
+						<pb/>
+						<pb n="28">
 				        <lg>
 				          <l>Godea la mamma tra la giovin prole:</l>
 				          <l>Dalle sue braccia i bimbi come uccelli</l>
@@ -106,7 +110,8 @@
 				          <l><q>« Quanti asinelli, quanti boverelli! »</q></l>
 				        </lg>
 				      </div>
-						<pb n="28">
+					  <pb/>
+					  <pb n="29">
 				      <div type="section" n="3">
 				        <head><num value="3">III.</num></head>
 				        <lg>
@@ -129,7 +134,8 @@
 				          <l>D’acciaio e ottone al sole, nel sagrato,</l>
 				          <l>E si udivan nitriti e mugghi e ragli,</l>
 				        </lg>
-						  <pb n="29">
+						<pb/>
+						<pb n="30">
 				        <lg>
 				          <l>Sonaron le campane. L’adunato</l>
 				          <l>Popolo allor con improvvisa ressa</l>
@@ -139,7 +145,8 @@
 				          <l>Era all'altare. Si dicea la messa.</l>
 				        </lg>
 				      </div>
-						<pb n="30">
+						<pb/>
+						<pb n="31">
 				      <div type="section" n="4">
 				        <head><num value="4">IV.</num></head>
 				        <lg>
@@ -162,14 +169,16 @@
 				          <l>La generosità delle cavalle,</l>
 				          <l>Gli asini miti, le sue mandre, i suoi</l>
 				        </lg>
-						<pb n="31">
+						<pb/>
+						<pb n="32">
 				        <lg>
 				          <l>Pollai. Quanti animali ha nelle stalle,</l>
 				          <l>Quanti brucan le foglie alle pendici,</l>
 				          <l>Quanti pascono l’erbe nella valle,</l>
 				          <l>Tutti, o gran santo, guarda e benedici. »</q></l>
 						</lg>
-						<pb n="32">
+						<pb/>
+						<pb n="33">
 						<div type="section" n="5">
 				        <head><num value="5"> V.</num></head>
 						<lg>
@@ -192,7 +201,8 @@
 				          <l>Trascorrevano a frotte, e via lontani.</l>
 						  <l><q>« O mamma, sant'Antonio d’ieri sera</l>
 				        </lg>
-						<pb n="33">
+						<pb/>
+						<pb n="34">
 				        <lg>
 				          <l>Venuto è in chiesa a benedir stamani?</l>
 				          <l>O,mamma, o mamma, — i piccoli fratelli</l>
@@ -201,8 +211,8 @@
 				        <lg>
 				          <l>Quanti asinelli, quanti boverelli! »</q></l>
 				        </lg>
-						<pb n="34">
-				      </div>
+						</div>
+						<pb/>
     			</body>
 			</text>
 		</TEI>
